@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Арбитраж</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script type="text/javascript" src="/eel.js"></script>
+</head>
+<body>
+	<div class="content">
+		<div class="content__satrs"></div>
+		<div class="content__satrs content__satrs_medium"></div>
+		<div class="content__satrs content__satrs_big"></div>
+		<div class="content__container">
+			<div class="flex" style="opacity:0" id="flex">
+				<div class="rightCalc">
+					<div class="input_price">
+						Цена покупки:
+						<input class="input" id="price_1">
+					</div>
+					<div class="input_price">
+						Цена продажи:
+						<input class="input" id="price_2">
+					</div>
+					<div class="input_price">
+						Комиссия в %:
+						<input class="input" id="fee_procent">
+					</div>
+					<div class="input_price">
+						Комиссия в $:
+						<input class="input" id="fee_dollars">
+					</div>
+					<div class="input_price">
+						Депозит в $:
+						<input class="input" id="deposit">
+					</div>
+				</div>
+			</div>
+			<div class="rightCalc" style="opacity:0" id="rightCalc">
+				<div class="input_price">
+					Монета :
+					<input class="input" id="coin">
+				</div>
+				<button class="button" id="button">Рассчитать</button>
+				<div class="input_price">
+					Биржи :
+					<input class="input" id="exchange">
+				</div>
+			</div>
+			<div class="mainContent" id="mainContent" style="opacity:0"></div>
+			<img src="bitcoin.png" class="bitcoin" style="opacity:0" id="bitcoin">
+		</div>
+		<h1 class="xyz">хуй</h1>
+	</div>
+	<script src="main.js"></script> 
+</body>
+</html>
